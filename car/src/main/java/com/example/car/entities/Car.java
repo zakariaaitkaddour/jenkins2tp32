@@ -20,4 +20,44 @@ public class Car {
     private String model;
     private String matricule;
     private Long client_id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getMatricule() {
+        return matricule;
+    }
+
+    public void setMatricule(String matricule) {
+        this.matricule = matricule;
+    }
+
+    public Long getClient_id() {
+        return client_id;
+    }
+
+    public void setClient_id(Long client_id) {
+        this.client_id = client_id;
+    }
 }

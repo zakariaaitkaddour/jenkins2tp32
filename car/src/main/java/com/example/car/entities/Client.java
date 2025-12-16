@@ -11,4 +11,10 @@ public class Client {
     private Long id;
     private String nom;
     private Integer age;
+
+    public Long getId() {
+        return id;
+    }
+
+
 }
