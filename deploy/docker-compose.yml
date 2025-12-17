@@ -121,7 +121,7 @@ services:
       PMA_PORT: ${MYSQL_PORT:-3306}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     ports:
-      - "${PHPMYADMIN_PORT:-8081}:80"
+      - "${PHPMYADMIN_PORT:-8083}:80"
     networks:
       - microservices-network
 
