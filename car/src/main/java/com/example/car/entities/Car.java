@@ -23,16 +23,16 @@ public class Car {
     private String matricule;
     private Long client_id;
 
-    public Car() {
-    }
-
-    public Car(Long id, String brand, String model, String matricule, Long client_id) {
-        this.id = id;
-        this.brand = brand;
-        this.model = model;
-        this.matricule = matricule;
-        this.client_id = client_id;
-    }
+//    public Car() {
+//    }
+//
+//    public Car(Long id, String brand, String model, String matricule, Long client_id) {
+//        this.id = id;
+//        this.brand = brand;
+//        this.model = model;
+//        this.matricule = matricule;
+//        this.client_id = client_id;
+//    }
 
     public Long getId() {
         return id;
