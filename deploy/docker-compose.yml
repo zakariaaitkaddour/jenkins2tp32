@@ -33,7 +33,7 @@ services:
       context: ../server_eureka
     container_name: eureka-server
     ports:
-      - "${EUREKA_PORT:-8762}:8761"
+      - "${EUREKA_PORT:-18761}:8761"
     networks:
       - microservices-network
     environment:
